@@ -1,0 +1,1667 @@
+{
+    "root_group":  {
+                       "name":  "",
+                       "path":  "",
+                       "id":  "d41d8cd98f00b204e9800998ecf8427e",
+                       "groups":  [
+
+                                  ],
+                       "checks":  [
+                                      {
+                                          "name":  "p1_customer1_sendmoney: HTTP 201",
+                                          "path":  "::p1_customer1_sendmoney: HTTP 201",
+                                          "id":  "90f7a96ffe2f324e0a618e54cd15da72",
+                                          "passes":  29,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "path":  "::p1_customer1_sendmoney: expected success message",
+                                          "id":  "ae9915d537f6f9cdbefccb54ef7a3973",
+                                          "passes":  29,
+                                          "fails":  0,
+                                          "name":  "p1_customer1_sendmoney: expected success message"
+                                      },
+                                      {
+                                          "name":  "p1_customer1_sendmoney: transaction ID returned",
+                                          "path":  "::p1_customer1_sendmoney: transaction ID returned",
+                                          "id":  "a198d91e5d9f0517b6a3b718dc8e698b",
+                                          "passes":  29,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "id":  "26fe4a314969770f4f710e37b2173192",
+                                          "passes":  29,
+                                          "fails":  0,
+                                          "name":  "p1_customer1_sendmoney: transaction completed successfully",
+                                          "path":  "::p1_customer1_sendmoney: transaction completed successfully"
+                                      },
+                                      {
+                                          "passes":  29,
+                                          "fails":  0,
+                                          "name":  "p1_customer2_payment_merchant1: HTTP 201",
+                                          "path":  "::p1_customer2_payment_merchant1: HTTP 201",
+                                          "id":  "9cd38bb253f4acc63cf1234d21caf6de"
+                                      },
+                                      {
+                                          "passes":  29,
+                                          "fails":  0,
+                                          "name":  "p1_customer2_payment_merchant1: expected success message",
+                                          "path":  "::p1_customer2_payment_merchant1: expected success message",
+                                          "id":  "bfbc5b3351b781c746be8f8cf352fe53"
+                                      },
+                                      {
+                                          "passes":  29,
+                                          "fails":  0,
+                                          "name":  "p1_customer2_payment_merchant1: transaction ID returned",
+                                          "path":  "::p1_customer2_payment_merchant1: transaction ID returned",
+                                          "id":  "62f2bddb215f71fbd5919d8c245d4bd0"
+                                      },
+                                      {
+                                          "name":  "p1_customer2_payment_merchant1: transaction completed successfully",
+                                          "path":  "::p1_customer2_payment_merchant1: transaction completed successfully",
+                                          "id":  "2fbda7396bc90abbda59a9c87d3972cd",
+                                          "passes":  29,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "fails":  0,
+                                          "name":  "p2_customer1_payment_merchant1: HTTP 201",
+                                          "path":  "::p2_customer1_payment_merchant1: HTTP 201",
+                                          "id":  "2df58a3bc27a9096ed019686928f6402",
+                                          "passes":  27
+                                      },
+                                      {
+                                          "path":  "::p2_customer1_payment_merchant1: expected success message",
+                                          "id":  "ecf9f3f2be40f456c0609df8b3243cac",
+                                          "passes":  27,
+                                          "fails":  0,
+                                          "name":  "p2_customer1_payment_merchant1: expected success message"
+                                      },
+                                      {
+                                          "passes":  27,
+                                          "fails":  0,
+                                          "name":  "p2_customer1_payment_merchant1: transaction ID returned",
+                                          "path":  "::p2_customer1_payment_merchant1: transaction ID returned",
+                                          "id":  "ebee3c12a673c015d518deab0d29bdfc"
+                                      },
+                                      {
+                                          "passes":  27,
+                                          "fails":  0,
+                                          "name":  "p2_customer1_payment_merchant1: transaction completed successfully",
+                                          "path":  "::p2_customer1_payment_merchant1: transaction completed successfully",
+                                          "id":  "0a1df9dd81b88c1fcd0d9dfa66257bdc"
+                                      },
+                                      {
+                                          "passes":  27,
+                                          "fails":  0,
+                                          "name":  "p2_customer2_sendmoney: HTTP 201",
+                                          "path":  "::p2_customer2_sendmoney: HTTP 201",
+                                          "id":  "476fda8f90c3a95457d4b06e0fefe02d"
+                                      },
+                                      {
+                                          "name":  "p2_customer2_sendmoney: expected success message",
+                                          "path":  "::p2_customer2_sendmoney: expected success message",
+                                          "id":  "8e7dc13d90aaebb364df50a59b17ad6d",
+                                          "passes":  27,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "name":  "p2_customer2_sendmoney: transaction ID returned",
+                                          "path":  "::p2_customer2_sendmoney: transaction ID returned",
+                                          "id":  "6384a1746ffa2b23c7ae861c3530af89",
+                                          "passes":  27,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "name":  "p2_customer2_sendmoney: transaction completed successfully",
+                                          "path":  "::p2_customer2_sendmoney: transaction completed successfully",
+                                          "id":  "93134a25193fcab897246ffb2cbc5493",
+                                          "passes":  27,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "id":  "74125e58c39e7c6155310f20fad803b1",
+                                          "passes":  26,
+                                          "fails":  0,
+                                          "name":  "p2_agent1_deposit_customer2: HTTP 201",
+                                          "path":  "::p2_agent1_deposit_customer2: HTTP 201"
+                                      },
+                                      {
+                                          "path":  "::p2_agent1_deposit_customer2: expected success message",
+                                          "id":  "858000e38827d6251a3213db0394d6a2",
+                                          "passes":  26,
+                                          "fails":  0,
+                                          "name":  "p2_agent1_deposit_customer2: expected success message"
+                                      },
+                                      {
+                                          "name":  "p2_agent1_deposit_customer2: transaction ID returned",
+                                          "path":  "::p2_agent1_deposit_customer2: transaction ID returned",
+                                          "id":  "e020bfcef04f3b1af84aeaa32e34940f",
+                                          "passes":  26,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "id":  "baafc64efdc76f1e3cc15a44a26069d8",
+                                          "passes":  26,
+                                          "fails":  0,
+                                          "name":  "p2_agent1_deposit_customer2: transaction completed successfully",
+                                          "path":  "::p2_agent1_deposit_customer2: transaction completed successfully"
+                                      },
+                                      {
+                                          "name":  "p3_agent2_deposit_customer2: HTTP 201",
+                                          "path":  "::p3_agent2_deposit_customer2: HTTP 201",
+                                          "id":  "7691635d5a75906db60c0be5c5f9b686",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "id":  "07f2442046df3503e4d7d9528f83b0a9",
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p3_agent2_deposit_customer2: expected success message",
+                                          "path":  "::p3_agent2_deposit_customer2: expected success message"
+                                      },
+                                      {
+                                          "fails":  0,
+                                          "name":  "p3_agent2_deposit_customer2: transaction ID returned",
+                                          "path":  "::p3_agent2_deposit_customer2: transaction ID returned",
+                                          "id":  "decb9dc7b107d1356d5fc60b4ba2ca51",
+                                          "passes":  30
+                                      },
+                                      {
+                                          "id":  "3ff4b6780ef17bb960a6c82e26adf841",
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p3_agent2_deposit_customer2: transaction completed successfully",
+                                          "path":  "::p3_agent2_deposit_customer2: transaction completed successfully"
+                                      },
+                                      {
+                                          "name":  "p3_customer1_sendmoney: HTTP 201",
+                                          "path":  "::p3_customer1_sendmoney: HTTP 201",
+                                          "id":  "66b978b89035755b59bff2dbdbc6bdca",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "path":  "::p3_customer1_sendmoney: expected success message",
+                                          "id":  "93678602cbdf84d6b3eb0749a8bec896",
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p3_customer1_sendmoney: expected success message"
+                                      },
+                                      {
+                                          "name":  "p3_customer1_sendmoney: transaction ID returned",
+                                          "path":  "::p3_customer1_sendmoney: transaction ID returned",
+                                          "id":  "532dab9ee818710d88c8d70aba3e82e1",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "name":  "p3_customer1_sendmoney: transaction completed successfully",
+                                          "path":  "::p3_customer1_sendmoney: transaction completed successfully",
+                                          "id":  "2aa98090813e26c50b484aa04f74f868",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "path":  "::p3_customer2_payment_merchant2: HTTP 201",
+                                          "id":  "bbc2f47df1e5b264aee2b46c6265420f",
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p3_customer2_payment_merchant2: HTTP 201"
+                                      },
+                                      {
+                                          "path":  "::p3_customer2_payment_merchant2: expected success message",
+                                          "id":  "ce2d94b73d47065a4302c67bdcf7b0ec",
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p3_customer2_payment_merchant2: expected success message"
+                                      },
+                                      {
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p3_customer2_payment_merchant2: transaction ID returned",
+                                          "path":  "::p3_customer2_payment_merchant2: transaction ID returned",
+                                          "id":  "7b61386b68d0d925a85d0210346125e9"
+                                      },
+                                      {
+                                          "name":  "p3_customer2_payment_merchant2: transaction completed successfully",
+                                          "path":  "::p3_customer2_payment_merchant2: transaction completed successfully",
+                                          "id":  "aabb8498bb226db80c0ebdf37c3634ae",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "name":  "p3_agent1_deposit_customer1: HTTP 201",
+                                          "path":  "::p3_agent1_deposit_customer1: HTTP 201",
+                                          "id":  "776ad245f1c1c6ced9fe50c85878a1b9",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "name":  "p3_agent1_deposit_customer1: expected success message",
+                                          "path":  "::p3_agent1_deposit_customer1: expected success message",
+                                          "id":  "6fc8ebbd64397bf9a7a37806fe3ae3f4",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "name":  "p3_agent1_deposit_customer1: transaction ID returned",
+                                          "path":  "::p3_agent1_deposit_customer1: transaction ID returned",
+                                          "id":  "9210382b1c28087c0665d5f0d00a4a9c",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "name":  "p3_agent1_deposit_customer1: transaction completed successfully",
+                                          "path":  "::p3_agent1_deposit_customer1: transaction completed successfully",
+                                          "id":  "a1000eb937238ad11ed01911164e3f3d",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "id":  "95403e92cb0bade76897f125ef09c3c3",
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p4_agent2_payment_merchant2: HTTP 201",
+                                          "path":  "::p4_agent2_payment_merchant2: HTTP 201"
+                                      },
+                                      {
+                                          "name":  "p4_agent2_payment_merchant2: expected success message",
+                                          "path":  "::p4_agent2_payment_merchant2: expected success message",
+                                          "id":  "5d5be9ecec9123ad79d4aecde75b0639",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "name":  "p4_agent2_payment_merchant2: transaction ID returned",
+                                          "path":  "::p4_agent2_payment_merchant2: transaction ID returned",
+                                          "id":  "c9180f3b3672249746f5899af81c2b69",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "path":  "::p4_agent2_payment_merchant2: transaction completed successfully",
+                                          "id":  "24ac49a4182d68010fbd83d351e07a79",
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p4_agent2_payment_merchant2: transaction completed successfully"
+                                      },
+                                      {
+                                          "path":  "::p4_agent1_payment_merchant1: HTTP 201",
+                                          "id":  "fc9d7ba8f7edd65f9df054a24f40593e",
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p4_agent1_payment_merchant1: HTTP 201"
+                                      },
+                                      {
+                                          "name":  "p4_agent1_payment_merchant1: expected success message",
+                                          "path":  "::p4_agent1_payment_merchant1: expected success message",
+                                          "id":  "d11f99838e7387b6cd349c0fc3de5529",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "id":  "a378a393c23b73fc773d1cb37adc7aa1",
+                                          "passes":  30,
+                                          "fails":  0,
+                                          "name":  "p4_agent1_payment_merchant1: transaction ID returned",
+                                          "path":  "::p4_agent1_payment_merchant1: transaction ID returned"
+                                      },
+                                      {
+                                          "name":  "p4_agent1_payment_merchant1: transaction completed successfully",
+                                          "path":  "::p4_agent1_payment_merchant1: transaction completed successfully",
+                                          "id":  "721b4356d17dca661df3f3587e3f70f5",
+                                          "passes":  30,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "fails":  0,
+                                          "name":  "p4_customer1_payment_merchant1: HTTP 201",
+                                          "path":  "::p4_customer1_payment_merchant1: HTTP 201",
+                                          "id":  "400538f4993f3eb7a518308c22ab1f1b",
+                                          "passes":  29
+                                      },
+                                      {
+                                          "path":  "::p4_customer1_payment_merchant1: expected success message",
+                                          "id":  "4124a26be131a556d53b2d41ceacd444",
+                                          "passes":  29,
+                                          "fails":  0,
+                                          "name":  "p4_customer1_payment_merchant1: expected success message"
+                                      },
+                                      {
+                                          "name":  "p4_customer1_payment_merchant1: transaction ID returned",
+                                          "path":  "::p4_customer1_payment_merchant1: transaction ID returned",
+                                          "id":  "8cd66735d4fce8d3f5b62bc3b5b806b7",
+                                          "passes":  29,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "name":  "p4_customer1_payment_merchant1: transaction completed successfully",
+                                          "path":  "::p4_customer1_payment_merchant1: transaction completed successfully",
+                                          "id":  "33efebc5308653eff4f9c696509075b3",
+                                          "passes":  29,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "fails":  0,
+                                          "name":  "p4_customer2_payment_merchant2: HTTP 201",
+                                          "path":  "::p4_customer2_payment_merchant2: HTTP 201",
+                                          "id":  "289620b7f27d83e699d8c93ea7c48aa5",
+                                          "passes":  29
+                                      },
+                                      {
+                                          "name":  "p4_customer2_payment_merchant2: expected success message",
+                                          "path":  "::p4_customer2_payment_merchant2: expected success message",
+                                          "id":  "0d1b0445dfd79a4aee349b2105756f21",
+                                          "passes":  29,
+                                          "fails":  0
+                                      },
+                                      {
+                                          "id":  "9a384a5676cee0fd1303785ba0ec90c2",
+                                          "passes":  29,
+                                          "fails":  0,
+                                          "name":  "p4_customer2_payment_merchant2: transaction ID returned",
+                                          "path":  "::p4_customer2_payment_merchant2: transaction ID returned"
+                                      },
+                                      {
+                                          "id":  "89173b27e71639456c53132bff18709c",
+                                          "passes":  29,
+                                          "fails":  0,
+                                          "name":  "p4_customer2_payment_merchant2: transaction completed successfully",
+                                          "path":  "::p4_customer2_payment_merchant2: transaction completed successfully"
+                                      }
+                                  ]
+                   },
+    "options":  {
+                    "summaryTrendStats":  [
+                                              "avg",
+                                              "min",
+                                              "med",
+                                              "max",
+                                              "p(90)",
+                                              "p(95)"
+                                          ],
+                    "summaryTimeUnit":  "",
+                    "noColor":  false
+                },
+    "state":  {
+                  "isStdOutTTY":  true,
+                  "isStdErrTTY":  true,
+                  "testRunDurationMs":  121908.9796
+              },
+    "metrics":  {
+                    "http_req_duration{expected_response:true}":  {
+                                                                      "type":  "trend",
+                                                                      "contains":  "time",
+                                                                      "values":  {
+                                                                                     "min":  15.2726,
+                                                                                     "med":  28.4422,
+                                                                                     "max":  2717.1864,
+                                                                                     "p(90)":  58.553,
+                                                                                     "p(95)":  90.78823999999997,
+                                                                                     "avg":  55.742907216494814
+                                                                                 }
+                                                                  },
+                    "http_req_duration{api:deposit,phase:phase2}":  {
+                                                                        "type":  "trend",
+                                                                        "contains":  "time",
+                                                                        "values":  {
+                                                                                       "avg":  129.12884615384613,
+                                                                                       "min":  17.5008,
+                                                                                       "med":  25.6192,
+                                                                                       "max":  2717.1864,
+                                                                                       "p(90)":  35.21385,
+                                                                                       "p(95)":  38.896675
+                                                                                   },
+                                                                        "thresholds":  {
+                                                                                           "p(95)\u003c1000":  {
+                                                                                                                   "ok":  true
+                                                                                                               }
+                                                                                       }
+                                                                    },
+                    "transaction_contract_pass{api:deposit,phase:phase3}":  {
+                                                                                "contains":  "default",
+                                                                                "values":  {
+                                                                                               "rate":  1,
+                                                                                               "passes":  60,
+                                                                                               "fails":  0
+                                                                                           },
+                                                                                "thresholds":  {
+                                                                                                   "rate\u003e=0.99":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                               },
+                                                                                "type":  "rate"
+                                                                            },
+                    "http_req_duration{api:payment,phase:phase1}":  {
+                                                                        "type":  "trend",
+                                                                        "contains":  "time",
+                                                                        "values":  {
+                                                                                       "p(90)":  72.99289999999995,
+                                                                                       "p(95)":  159.8866599999999,
+                                                                                       "avg":  53.23589655172413,
+                                                                                       "min":  24.7934,
+                                                                                       "med":  41.2975,
+                                                                                       "max":  202.2183
+                                                                                   },
+                                                                        "thresholds":  {
+                                                                                           "p(95)\u003c1000":  {
+                                                                                                                   "ok":  true
+                                                                                                               }
+                                                                                       }
+                                                                    },
+                    "iterations":  {
+                                       "values":  {
+                                                      "count":  375,
+                                                      "rate":  3.0760654484224723
+                                                  },
+                                       "type":  "counter",
+                                       "contains":  "default"
+                                   },
+                    "checks{kind:transaction,api:sendmoney,phase:phase3}":  {
+                                                                                "type":  "rate",
+                                                                                "contains":  "default",
+                                                                                "values":  {
+                                                                                               "rate":  1,
+                                                                                               "passes":  120,
+                                                                                               "fails":  0
+                                                                                           },
+                                                                                "thresholds":  {
+                                                                                                   "rate\u003e=0.99":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                               }
+                                                                            },
+                    "transaction_contract_pass":  {
+                                                      "values":  {
+                                                                     "rate":  1,
+                                                                     "passes":  376,
+                                                                     "fails":  0
+                                                                 },
+                                                      "thresholds":  {
+                                                                         "rate\u003e=0.99":  {
+                                                                                                 "ok":  true
+                                                                                             }
+                                                                     },
+                                                      "type":  "rate",
+                                                      "contains":  "default"
+                                                  },
+                    "checks{kind:transaction}":  {
+                                                     "type":  "rate",
+                                                     "contains":  "default",
+                                                     "values":  {
+                                                                    "rate":  1,
+                                                                    "passes":  1504,
+                                                                    "fails":  0
+                                                                },
+                                                     "thresholds":  {
+                                                                        "rate\u003e=0.99":  {
+                                                                                                "ok":  true
+                                                                                            }
+                                                                    }
+                                                 },
+                    "http_req_duration{api:sendmoney,phase:phase2}":  {
+                                                                          "type":  "trend",
+                                                                          "contains":  "time",
+                                                                          "values":  {
+                                                                                         "p(95)":  277.5148199999998,
+                                                                                         "avg":  120.0646037037037,
+                                                                                         "min":  23.9306,
+                                                                                         "med":  29.2594,
+                                                                                         "max":  2106.9409,
+                                                                                         "p(90)":  42.51930000000002
+                                                                                     },
+                                                                          "thresholds":  {
+                                                                                             "p(95)\u003c1000":  {
+                                                                                                                     "ok":  true
+                                                                                                                 }
+                                                                                         }
+                                                                      },
+                    "transaction_failure_rate{api:sendmoney,phase:phase3}":  {
+                                                                                 "type":  "rate",
+                                                                                 "contains":  "default",
+                                                                                 "values":  {
+                                                                                                "rate":  0,
+                                                                                                "passes":  0,
+                                                                                                "fails":  30
+                                                                                            },
+                                                                                 "thresholds":  {
+                                                                                                    "rate\u003c0.01":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                                }
+                                                                             },
+                    "checks{kind:transaction,api:payment,phase:phase1}":  {
+                                                                              "values":  {
+                                                                                             "rate":  1,
+                                                                                             "passes":  116,
+                                                                                             "fails":  0
+                                                                                         },
+                                                                              "thresholds":  {
+                                                                                                 "rate\u003e=0.99":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                             },
+                                                                              "type":  "rate",
+                                                                              "contains":  "default"
+                                                                          },
+                    "http_req_failed{api:sendmoney,phase:phase3}":  {
+                                                                        "type":  "rate",
+                                                                        "contains":  "default",
+                                                                        "values":  {
+                                                                                       "rate":  0,
+                                                                                       "passes":  0,
+                                                                                       "fails":  30
+                                                                                   },
+                                                                        "thresholds":  {
+                                                                                           "rate\u003c0.01":  {
+                                                                                                                  "ok":  true
+                                                                                                              }
+                                                                                       }
+                                                                    },
+                    "checks{kind:transaction,api:payment}":  {
+                                                                 "thresholds":  {
+                                                                                    "rate\u003e=0.99":  {
+                                                                                                            "ok":  true
+                                                                                                        }
+                                                                                },
+                                                                 "type":  "rate",
+                                                                 "contains":  "default",
+                                                                 "values":  {
+                                                                                "rate":  1,
+                                                                                "passes":  816,
+                                                                                "fails":  0
+                                                                            }
+                                                             },
+                    "vus_max":  {
+                                    "contains":  "default",
+                                    "values":  {
+                                                   "value":  8,
+                                                   "min":  8,
+                                                   "max":  8
+                                               },
+                                    "type":  "gauge"
+                                },
+                    "checks{kind:transaction,api:deposit}":  {
+                                                                 "type":  "rate",
+                                                                 "contains":  "default",
+                                                                 "values":  {
+                                                                                "rate":  1,
+                                                                                "passes":  344,
+                                                                                "fails":  0
+                                                                            },
+                                                                 "thresholds":  {
+                                                                                    "rate\u003e=0.99":  {
+                                                                                                            "ok":  true
+                                                                                                        }
+                                                                                }
+                                                             },
+                    "http_req_failed{api:deposit}":  {
+                                                         "type":  "rate",
+                                                         "contains":  "default",
+                                                         "values":  {
+                                                                        "rate":  0,
+                                                                        "passes":  0,
+                                                                        "fails":  86
+                                                                    },
+                                                         "thresholds":  {
+                                                                            "rate\u003c0.01":  {
+                                                                                                   "ok":  true
+                                                                                               }
+                                                                        }
+                                                     },
+                    "http_req_duration{api:deposit,phase:phase3}":  {
+                                                                        "contains":  "time",
+                                                                        "values":  {
+                                                                                       "max":  84.4388,
+                                                                                       "p(90)":  33.49355,
+                                                                                       "p(95)":  51.32721999999998,
+                                                                                       "avg":  25.304821666666673,
+                                                                                       "min":  16.2262,
+                                                                                       "med":  21.598300000000002
+                                                                                   },
+                                                                        "thresholds":  {
+                                                                                           "p(95)\u003c1000":  {
+                                                                                                                   "ok":  true
+                                                                                                               }
+                                                                                       },
+                                                                        "type":  "trend"
+                                                                    },
+                    "http_reqs":  {
+                                      "type":  "counter",
+                                      "contains":  "default",
+                                      "values":  {
+                                                     "count":  388,
+                                                     "rate":  3.1827023839677846
+                                                 }
+                                  },
+                    "data_received":  {
+                                          "type":  "counter",
+                                          "contains":  "data",
+                                          "values":  {
+                                                         "count":  141713,
+                                                         "rate":  1162.4492343794502
+                                                     }
+                                      },
+                    "transaction_failure_rate{api:payment,phase:phase4}":  {
+                                                                               "type":  "rate",
+                                                                               "contains":  "default",
+                                                                               "values":  {
+                                                                                              "rate":  0,
+                                                                                              "passes":  0,
+                                                                                              "fails":  118
+                                                                                          },
+                                                                               "thresholds":  {
+                                                                                                  "rate\u003c0.01":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                              }
+                                                                           },
+                    "http_reqs{api:sendmoney,phase:phase2}":  {
+                                                                  "thresholds":  {
+                                                                                     "count\u003e0":  {
+                                                                                                          "ok":  true
+                                                                                                      }
+                                                                                 },
+                                                                  "type":  "counter",
+                                                                  "contains":  "default",
+                                                                  "values":  {
+                                                                                 "count":  27,
+                                                                                 "rate":  0.221476712286418
+                                                                             }
+                                                              },
+                    "transaction_contract_pass{api:payment}":  {
+                                                                   "contains":  "default",
+                                                                   "values":  {
+                                                                                  "rate":  1,
+                                                                                  "passes":  204,
+                                                                                  "fails":  0
+                                                                              },
+                                                                   "thresholds":  {
+                                                                                      "rate\u003e=0.99":  {
+                                                                                                              "ok":  true
+                                                                                                          }
+                                                                                  },
+                                                                   "type":  "rate"
+                                                               },
+                    "http_req_duration":  {
+                                              "type":  "trend",
+                                              "contains":  "time",
+                                              "values":  {
+                                                             "max":  2717.1864,
+                                                             "p(90)":  58.553,
+                                                             "p(95)":  90.78823999999997,
+                                                             "avg":  55.742907216494814,
+                                                             "min":  15.2726,
+                                                             "med":  28.4422
+                                                         }
+                                          },
+                    "http_req_failed{api:payment,phase:phase4}":  {
+                                                                      "type":  "rate",
+                                                                      "contains":  "default",
+                                                                      "values":  {
+                                                                                     "rate":  0,
+                                                                                     "passes":  0,
+                                                                                     "fails":  118
+                                                                                 },
+                                                                      "thresholds":  {
+                                                                                         "rate\u003c0.01":  {
+                                                                                                                "ok":  true
+                                                                                                            }
+                                                                                     }
+                                                                  },
+                    "http_req_duration{api:payment,phase:phase4}":  {
+                                                                        "values":  {
+                                                                                       "avg":  35.9706881355932,
+                                                                                       "min":  15.2726,
+                                                                                       "med":  27.737000000000002,
+                                                                                       "max":  153.947,
+                                                                                       "p(90)":  73.34215999999999,
+                                                                                       "p(95)":  96.23245999999993
+                                                                                   },
+                                                                        "thresholds":  {
+                                                                                           "p(95)\u003c1000":  {
+                                                                                                                   "ok":  true
+                                                                                                               }
+                                                                                       },
+                                                                        "type":  "trend",
+                                                                        "contains":  "time"
+                                                                    },
+                    "checks{kind:transaction,api:sendmoney}":  {
+                                                                   "type":  "rate",
+                                                                   "contains":  "default",
+                                                                   "values":  {
+                                                                                  "rate":  1,
+                                                                                  "passes":  344,
+                                                                                  "fails":  0
+                                                                              },
+                                                                   "thresholds":  {
+                                                                                      "rate\u003e=0.99":  {
+                                                                                                              "ok":  true
+                                                                                                          }
+                                                                                  }
+                                                               },
+                    "http_req_sending":  {
+                                             "contains":  "time",
+                                             "values":  {
+                                                            "med":  0,
+                                                            "max":  2.8334,
+                                                            "p(90)":  0,
+                                                            "p(95)":  0,
+                                                            "avg":  0.02175335051546392,
+                                                            "min":  0
+                                                        },
+                                             "type":  "trend"
+                                         },
+                    "http_req_duration{api:payment,phase:phase3}":  {
+                                                                        "type":  "trend",
+                                                                        "contains":  "time",
+                                                                        "values":  {
+                                                                                       "min":  23.4938,
+                                                                                       "med":  28.777900000000002,
+                                                                                       "max":  70.0721,
+                                                                                       "p(90)":  50.30645000000002,
+                                                                                       "p(95)":  64.05445999999999,
+                                                                                       "avg":  34.78749666666666
+                                                                                   },
+                                                                        "thresholds":  {
+                                                                                           "p(95)\u003c1000":  {
+                                                                                                                   "ok":  true
+                                                                                                               }
+                                                                                       }
+                                                                    },
+                    "transaction_contract_pass{api:sendmoney,phase:phase3}":  {
+                                                                                  "type":  "rate",
+                                                                                  "contains":  "default",
+                                                                                  "values":  {
+                                                                                                 "rate":  1,
+                                                                                                 "passes":  30,
+                                                                                                 "fails":  0
+                                                                                             },
+                                                                                  "thresholds":  {
+                                                                                                     "rate\u003e=0.99":  {
+                                                                                                                             "ok":  true
+                                                                                                                         }
+                                                                                                 }
+                                                                              },
+                    "vus":  {
+                                "type":  "gauge",
+                                "contains":  "default",
+                                "values":  {
+                                               "value":  4,
+                                               "min":  2,
+                                               "max":  8
+                                           }
+                            },
+                    "http_req_failed{api:payment}":  {
+                                                         "type":  "rate",
+                                                         "contains":  "default",
+                                                         "values":  {
+                                                                        "rate":  0,
+                                                                        "passes":  0,
+                                                                        "fails":  204
+                                                                    },
+                                                         "thresholds":  {
+                                                                            "rate\u003c0.01":  {
+                                                                                                   "ok":  true
+                                                                                               }
+                                                                        }
+                                                     },
+                    "iteration_duration":  {
+                                               "type":  "trend",
+                                               "contains":  "time",
+                                               "values":  {
+                                                              "avg":  1058.2320634666662,
+                                                              "min":  1015.6136,
+                                                              "med":  1028.886,
+                                                              "max":  4446.8479,
+                                                              "p(90)":  1059.5645,
+                                                              "p(95)":  1091.67692
+                                                          }
+                                           },
+                    "checks{kind:transaction,api:deposit,phase:phase3}":  {
+                                                                              "values":  {
+                                                                                             "rate":  1,
+                                                                                             "passes":  240,
+                                                                                             "fails":  0
+                                                                                         },
+                                                                              "thresholds":  {
+                                                                                                 "rate\u003e=0.99":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                             },
+                                                                              "type":  "rate",
+                                                                              "contains":  "default"
+                                                                          },
+                    "transaction_contract_pass{api:payment,phase:phase2}":  {
+                                                                                "type":  "rate",
+                                                                                "contains":  "default",
+                                                                                "values":  {
+                                                                                               "rate":  1,
+                                                                                               "passes":  27,
+                                                                                               "fails":  0
+                                                                                           },
+                                                                                "thresholds":  {
+                                                                                                   "rate\u003e=0.99":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                               }
+                                                                            },
+                    "checks{kind:transaction,api:sendmoney,phase:phase1}":  {
+                                                                                "thresholds":  {
+                                                                                                   "rate\u003e=0.99":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                               },
+                                                                                "type":  "rate",
+                                                                                "contains":  "default",
+                                                                                "values":  {
+                                                                                               "passes":  116,
+                                                                                               "fails":  0,
+                                                                                               "rate":  1
+                                                                                           }
+                                                                            },
+                    "transaction_contract_pass{api:payment,phase:phase1}":  {
+                                                                                "contains":  "default",
+                                                                                "values":  {
+                                                                                               "fails":  0,
+                                                                                               "rate":  1,
+                                                                                               "passes":  29
+                                                                                           },
+                                                                                "thresholds":  {
+                                                                                                   "rate\u003e=0.99":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                               },
+                                                                                "type":  "rate"
+                                                                            },
+                    "http_req_connecting":  {
+                                                "type":  "trend",
+                                                "contains":  "time",
+                                                "values":  {
+                                                               "min":  0,
+                                                               "med":  0,
+                                                               "max":  728.5234,
+                                                               "p(90)":  0,
+                                                               "p(95)":  0,
+                                                               "avg":  1.9159881443298976
+                                                           }
+                                            },
+                    "http_req_failed{api:sendmoney,phase:phase1}":  {
+                                                                        "type":  "rate",
+                                                                        "contains":  "default",
+                                                                        "values":  {
+                                                                                       "rate":  0,
+                                                                                       "passes":  0,
+                                                                                       "fails":  29
+                                                                                   },
+                                                                        "thresholds":  {
+                                                                                           "rate\u003c0.01":  {
+                                                                                                                  "ok":  true
+                                                                                                              }
+                                                                                       }
+                                                                    },
+                    "checks{kind:transaction,api:payment,phase:phase2}":  {
+                                                                              "contains":  "default",
+                                                                              "values":  {
+                                                                                             "rate":  1,
+                                                                                             "passes":  108,
+                                                                                             "fails":  0
+                                                                                         },
+                                                                              "thresholds":  {
+                                                                                                 "rate\u003e=0.99":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                             },
+                                                                              "type":  "rate"
+                                                                          },
+                    "http_reqs{api:payment,phase:phase2}":  {
+                                                                "type":  "counter",
+                                                                "contains":  "default",
+                                                                "values":  {
+                                                                               "rate":  0.221476712286418,
+                                                                               "count":  27
+                                                                           },
+                                                                "thresholds":  {
+                                                                                   "count\u003e0":  {
+                                                                                                        "ok":  true
+                                                                                                    }
+                                                                               }
+                                                            },
+                    "transaction_contract_pass{api:payment,phase:phase4}":  {
+                                                                                "type":  "rate",
+                                                                                "contains":  "default",
+                                                                                "values":  {
+                                                                                               "rate":  1,
+                                                                                               "passes":  118,
+                                                                                               "fails":  0
+                                                                                           },
+                                                                                "thresholds":  {
+                                                                                                   "rate\u003e=0.99":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                               }
+                                                                            },
+                    "http_req_failed{api:deposit,phase:phase3}":  {
+                                                                      "type":  "rate",
+                                                                      "contains":  "default",
+                                                                      "values":  {
+                                                                                     "rate":  0,
+                                                                                     "passes":  0,
+                                                                                     "fails":  60
+                                                                                 },
+                                                                      "thresholds":  {
+                                                                                         "rate\u003c0.01":  {
+                                                                                                                "ok":  true
+                                                                                                            }
+                                                                                     }
+                                                                  },
+                    "transaction_contract_pass{api:sendmoney,phase:phase2}":  {
+                                                                                  "type":  "rate",
+                                                                                  "contains":  "default",
+                                                                                  "values":  {
+                                                                                                 "rate":  1,
+                                                                                                 "passes":  27,
+                                                                                                 "fails":  0
+                                                                                             },
+                                                                                  "thresholds":  {
+                                                                                                     "rate\u003e=0.99":  {
+                                                                                                                             "ok":  true
+                                                                                                                         }
+                                                                                                 }
+                                                                              },
+                    "transaction_failure_rate{api:sendmoney}":  {
+                                                                    "type":  "rate",
+                                                                    "contains":  "default",
+                                                                    "values":  {
+                                                                                   "passes":  0,
+                                                                                   "fails":  86,
+                                                                                   "rate":  0
+                                                                               },
+                                                                    "thresholds":  {
+                                                                                       "rate\u003c0.01":  {
+                                                                                                              "ok":  true
+                                                                                                          }
+                                                                                   }
+                                                                },
+                    "http_req_duration{api:payment}":  {
+                                                           "type":  "trend",
+                                                           "contains":  "time",
+                                                           "values":  {
+                                                                          "avg":  50.94469215686274,
+                                                                          "min":  15.2726,
+                                                                          "med":  28.9589,
+                                                                          "max":  1750.9885,
+                                                                          "p(90)":  65.81345,
+                                                                          "p(95)":  101.74453999999996
+                                                                      },
+                                                           "thresholds":  {
+                                                                              "p(95)\u003c1000":  {
+                                                                                                      "ok":  true
+                                                                                                  }
+                                                                          }
+                                                       },
+                    "http_reqs{api:payment,phase:phase1}":  {
+                                                                "type":  "counter",
+                                                                "contains":  "default",
+                                                                "values":  {
+                                                                               "count":  29,
+                                                                               "rate":  0.2378823946780045
+                                                                           },
+                                                                "thresholds":  {
+                                                                                   "count\u003e0":  {
+                                                                                                        "ok":  true
+                                                                                                    }
+                                                                               }
+                                                            },
+                    "http_reqs{api:deposit,phase:phase3}":  {
+                                                                "type":  "counter",
+                                                                "contains":  "default",
+                                                                "values":  {
+                                                                               "count":  60,
+                                                                               "rate":  0.49217047174759554
+                                                                           },
+                                                                "thresholds":  {
+                                                                                   "count\u003e0":  {
+                                                                                                        "ok":  true
+                                                                                                    }
+                                                                               }
+                                                            },
+                    "transaction_contract_pass{api:deposit}":  {
+                                                                   "type":  "rate",
+                                                                   "contains":  "default",
+                                                                   "values":  {
+                                                                                  "passes":  86,
+                                                                                  "fails":  0,
+                                                                                  "rate":  1
+                                                                              },
+                                                                   "thresholds":  {
+                                                                                      "rate\u003e=0.99":  {
+                                                                                                              "ok":  true
+                                                                                                          }
+                                                                                  }
+                                                               },
+                    "http_reqs{api:payment,phase:phase4}":  {
+                                                                "type":  "counter",
+                                                                "contains":  "default",
+                                                                "values":  {
+                                                                               "count":  118,
+                                                                               "rate":  0.9679352611036046
+                                                                           },
+                                                                "thresholds":  {
+                                                                                   "count\u003e0":  {
+                                                                                                        "ok":  true
+                                                                                                    }
+                                                                               }
+                                                            },
+                    "transaction_failure_rate{api:payment,phase:phase2}":  {
+                                                                               "type":  "rate",
+                                                                               "contains":  "default",
+                                                                               "values":  {
+                                                                                              "rate":  0,
+                                                                                              "passes":  0,
+                                                                                              "fails":  27
+                                                                                          },
+                                                                               "thresholds":  {
+                                                                                                  "rate\u003c0.01":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                              }
+                                                                           },
+                    "http_req_duration{api:sendmoney,phase:phase3}":  {
+                                                                          "values":  {
+                                                                                         "max":  58.9283,
+                                                                                         "p(90)":  45.92453000000001,
+                                                                                         "p(95)":  54.27100499999998,
+                                                                                         "avg":  30.796969999999998,
+                                                                                         "min":  21.4081,
+                                                                                         "med":  26.183349999999997
+                                                                                     },
+                                                                          "thresholds":  {
+                                                                                             "p(95)\u003c1000":  {
+                                                                                                                     "ok":  true
+                                                                                                                 }
+                                                                                         },
+                                                                          "type":  "trend",
+                                                                          "contains":  "time"
+                                                                      },
+                    "http_reqs{api:sendmoney,phase:phase1}":  {
+                                                                  "type":  "counter",
+                                                                  "contains":  "default",
+                                                                  "values":  {
+                                                                                 "count":  29,
+                                                                                 "rate":  0.2378823946780045
+                                                                             },
+                                                                  "thresholds":  {
+                                                                                     "count\u003e0":  {
+                                                                                                          "ok":  true
+                                                                                                      }
+                                                                                 }
+                                                              },
+                    "transaction_failure_rate{api:deposit,phase:phase2}":  {
+                                                                               "type":  "rate",
+                                                                               "contains":  "default",
+                                                                               "values":  {
+                                                                                              "rate":  0,
+                                                                                              "passes":  0,
+                                                                                              "fails":  26
+                                                                                          },
+                                                                               "thresholds":  {
+                                                                                                  "rate\u003c0.01":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                              }
+                                                                           },
+                    "http_req_failed{api:deposit,phase:phase2}":  {
+                                                                      "contains":  "default",
+                                                                      "values":  {
+                                                                                     "rate":  0,
+                                                                                     "passes":  0,
+                                                                                     "fails":  26
+                                                                                 },
+                                                                      "thresholds":  {
+                                                                                         "rate\u003c0.01":  {
+                                                                                                                "ok":  true
+                                                                                                            }
+                                                                                     },
+                                                                      "type":  "rate"
+                                                                  },
+                    "http_req_duration{type:transaction}":  {
+                                                                "thresholds":  {
+                                                                                   "p(95)\u003c1000":  {
+                                                                                                           "ok":  true
+                                                                                                       }
+                                                                               },
+                                                                "type":  "trend",
+                                                                "contains":  "time",
+                                                                "values":  {
+                                                                               "avg":  55.29203324468083,
+                                                                               "min":  15.2726,
+                                                                               "med":  28.24855,
+                                                                               "max":  2717.1864,
+                                                                               "p(90)":  57.4567,
+                                                                               "p(95)":  86.136375
+                                                                           }
+                                                            },
+                    "http_req_waiting":  {
+                                             "type":  "trend",
+                                             "contains":  "time",
+                                             "values":  {
+                                                            "p(95)":  87.3551549999999,
+                                                            "avg":  55.02906829896905,
+                                                            "min":  14.355,
+                                                            "med":  27.8078,
+                                                            "max":  2716.1862,
+                                                            "p(90)":  58.35868
+                                                        }
+                                         },
+                    "transaction_contract_pass{api:sendmoney}":  {
+                                                                     "type":  "rate",
+                                                                     "contains":  "default",
+                                                                     "values":  {
+                                                                                    "rate":  1,
+                                                                                    "passes":  86,
+                                                                                    "fails":  0
+                                                                                },
+                                                                     "thresholds":  {
+                                                                                        "rate\u003e=0.99":  {
+                                                                                                                "ok":  true
+                                                                                                            }
+                                                                                    }
+                                                                 },
+                    "data_sent":  {
+                                      "type":  "counter",
+                                      "contains":  "data",
+                                      "values":  {
+                                                     "count":  172548,
+                                                     "rate":  1415.3838426517352
+                                                 }
+                                  },
+                    "transaction_failure_rate{api:payment,phase:phase1}":  {
+                                                                               "type":  "rate",
+                                                                               "contains":  "default",
+                                                                               "values":  {
+                                                                                              "rate":  0,
+                                                                                              "passes":  0,
+                                                                                              "fails":  29
+                                                                                          },
+                                                                               "thresholds":  {
+                                                                                                  "rate\u003c0.01":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                              }
+                                                                           },
+                    "http_req_tls_handshaking":  {
+                                                     "type":  "trend",
+                                                     "contains":  "time",
+                                                     "values":  {
+                                                                    "med":  0,
+                                                                    "max":  0,
+                                                                    "p(90)":  0,
+                                                                    "p(95)":  0,
+                                                                    "avg":  0,
+                                                                    "min":  0
+                                                                }
+                                                 },
+                    "http_req_blocked":  {
+                                             "type":  "trend",
+                                             "contains":  "time",
+                                             "values":  {
+                                                            "med":  0,
+                                                            "max":  728.5234,
+                                                            "p(90)":  0,
+                                                            "p(95)":  0,
+                                                            "avg":  2.054502577319588,
+                                                            "min":  0
+                                                        }
+                                         },
+                    "transaction_failure_rate{api:payment}":  {
+                                                                  "type":  "rate",
+                                                                  "contains":  "default",
+                                                                  "values":  {
+                                                                                 "passes":  0,
+                                                                                 "fails":  204,
+                                                                                 "rate":  0
+                                                                             },
+                                                                  "thresholds":  {
+                                                                                     "rate\u003c0.01":  {
+                                                                                                            "ok":  true
+                                                                                                        }
+                                                                                 }
+                                                              },
+                    "checks{kind:transaction,api:sendmoney,phase:phase2}":  {
+                                                                                "thresholds":  {
+                                                                                                   "rate\u003e=0.99":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                               },
+                                                                                "type":  "rate",
+                                                                                "contains":  "default",
+                                                                                "values":  {
+                                                                                               "rate":  1,
+                                                                                               "passes":  108,
+                                                                                               "fails":  0
+                                                                                           }
+                                                                            },
+                    "http_req_duration{api:payment,phase:phase2}":  {
+                                                                        "thresholds":  {
+                                                                                           "p(95)\u003c1000":  {
+                                                                                                                   "ok":  true
+                                                                                                               }
+                                                                                       },
+                                                                        "type":  "trend",
+                                                                        "contains":  "time",
+                                                                        "values":  {
+                                                                                       "avg":  131.87815185185187,
+                                                                                       "min":  21.8596,
+                                                                                       "med":  29.5442,
+                                                                                       "max":  1750.9885,
+                                                                                       "p(90)":  41.49992,
+                                                                                       "p(95)":  744.0557799999993
+                                                                                   }
+                                                                    },
+                    "http_req_duration{api:sendmoney}":  {
+                                                             "thresholds":  {
+                                                                                "p(95)\u003c1000":  {
+                                                                                                        "ok":  true
+                                                                                                    }
+                                                                            },
+                                                             "type":  "trend",
+                                                             "contains":  "time",
+                                                             "values":  {
+                                                                            "avg":  64.20288372093025,
+                                                                            "min":  21.4081,
+                                                                            "med":  30.9558,
+                                                                            "max":  2106.9409,
+                                                                            "p(90)":  51.50855,
+                                                                            "p(95)":  63.878524999999996
+                                                                        }
+                                                         },
+                    "http_reqs{api:deposit,phase:phase2}":  {
+                                                                "type":  "counter",
+                                                                "contains":  "default",
+                                                                "values":  {
+                                                                               "count":  26,
+                                                                               "rate":  0.21327387109062473
+                                                                           },
+                                                                "thresholds":  {
+                                                                                   "count\u003e0":  {
+                                                                                                        "ok":  true
+                                                                                                    }
+                                                                               }
+                                                            },
+                    "http_reqs{api:payment,phase:phase3}":  {
+                                                                "type":  "counter",
+                                                                "contains":  "default",
+                                                                "values":  {
+                                                                               "count":  30,
+                                                                               "rate":  0.24608523587379777
+                                                                           },
+                                                                "thresholds":  {
+                                                                                   "count\u003e0":  {
+                                                                                                        "ok":  true
+                                                                                                    }
+                                                                               }
+                                                            },
+                    "transaction_failure_rate{api:deposit,phase:phase3}":  {
+                                                                               "type":  "rate",
+                                                                               "contains":  "default",
+                                                                               "values":  {
+                                                                                              "rate":  0,
+                                                                                              "passes":  0,
+                                                                                              "fails":  60
+                                                                                          },
+                                                                               "thresholds":  {
+                                                                                                  "rate\u003c0.01":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                              }
+                                                                           },
+                    "http_req_failed{api:sendmoney,phase:phase2}":  {
+                                                                        "type":  "rate",
+                                                                        "contains":  "default",
+                                                                        "values":  {
+                                                                                       "rate":  0,
+                                                                                       "passes":  0,
+                                                                                       "fails":  27
+                                                                                   },
+                                                                        "thresholds":  {
+                                                                                           "rate\u003c0.01":  {
+                                                                                                                  "ok":  true
+                                                                                                              }
+                                                                                       }
+                                                                    },
+                    "http_req_duration{api:sendmoney,phase:phase1}":  {
+                                                                          "contains":  "time",
+                                                                          "values":  {
+                                                                                         "min":  24.6023,
+                                                                                         "med":  38.788,
+                                                                                         "max":  195.148,
+                                                                                         "p(90)":  60.79263999999999,
+                                                                                         "p(95)":  88.43135999999993,
+                                                                                         "avg":  46.75153793103449
+                                                                                     },
+                                                                          "thresholds":  {
+                                                                                             "p(95)\u003c1000":  {
+                                                                                                                     "ok":  true
+                                                                                                                 }
+                                                                                         },
+                                                                          "type":  "trend"
+                                                                      },
+                    "transaction_contract_pass{api:deposit,phase:phase2}":  {
+                                                                                "type":  "rate",
+                                                                                "contains":  "default",
+                                                                                "values":  {
+                                                                                               "rate":  1,
+                                                                                               "passes":  26,
+                                                                                               "fails":  0
+                                                                                           },
+                                                                                "thresholds":  {
+                                                                                                   "rate\u003e=0.99":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                               }
+                                                                            },
+                    "transaction_contract_pass{api:payment,phase:phase3}":  {
+                                                                                "thresholds":  {
+                                                                                                   "rate\u003e=0.99":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                               },
+                                                                                "type":  "rate",
+                                                                                "contains":  "default",
+                                                                                "values":  {
+                                                                                               "rate":  1,
+                                                                                               "passes":  30,
+                                                                                               "fails":  0
+                                                                                           }
+                                                                            },
+                    "http_req_duration{api:deposit}":  {
+                                                           "type":  "trend",
+                                                           "contains":  "time",
+                                                           "values":  {
+                                                                          "min":  16.2262,
+                                                                          "med":  22.4875,
+                                                                          "max":  2717.1864,
+                                                                          "p(90)":  34.358549999999994,
+                                                                          "p(95)":  49.211825000000005,
+                                                                          "avg":  56.693480232558095
+                                                                      },
+                                                           "thresholds":  {
+                                                                              "p(95)\u003c1000":  {
+                                                                                                      "ok":  true
+                                                                                                  }
+                                                                          }
+                                                       },
+                    "http_req_receiving":  {
+                                               "type":  "trend",
+                                               "contains":  "time",
+                                               "values":  {
+                                                              "med":  0.38039999999999996,
+                                                              "max":  114.9242,
+                                                              "p(90)":  0.9776000000000001,
+                                                              "p(95)":  1.00355,
+                                                              "avg":  0.6920855670103095,
+                                                              "min":  0
+                                                          }
+                                           },
+                    "http_req_failed{api:sendmoney}":  {
+                                                           "type":  "rate",
+                                                           "contains":  "default",
+                                                           "values":  {
+                                                                          "rate":  0,
+                                                                          "passes":  0,
+                                                                          "fails":  86
+                                                                      },
+                                                           "thresholds":  {
+                                                                              "rate\u003c0.01":  {
+                                                                                                     "ok":  true
+                                                                                                 }
+                                                                          }
+                                                       },
+                    "transaction_contract_pass{api:sendmoney,phase:phase1}":  {
+                                                                                  "contains":  "default",
+                                                                                  "values":  {
+                                                                                                 "rate":  1,
+                                                                                                 "passes":  29,
+                                                                                                 "fails":  0
+                                                                                             },
+                                                                                  "thresholds":  {
+                                                                                                     "rate\u003e=0.99":  {
+                                                                                                                             "ok":  true
+                                                                                                                         }
+                                                                                                 },
+                                                                                  "type":  "rate"
+                                                                              },
+                    "transaction_failure_rate{api:payment,phase:phase3}":  {
+                                                                               "thresholds":  {
+                                                                                                  "rate\u003c0.01":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                              },
+                                                                               "type":  "rate",
+                                                                               "contains":  "default",
+                                                                               "values":  {
+                                                                                              "rate":  0,
+                                                                                              "passes":  0,
+                                                                                              "fails":  30
+                                                                                          }
+                                                                           },
+                    "transaction_failure_rate{api:sendmoney,phase:phase2}":  {
+                                                                                 "type":  "rate",
+                                                                                 "contains":  "default",
+                                                                                 "values":  {
+                                                                                                "rate":  0,
+                                                                                                "passes":  0,
+                                                                                                "fails":  27
+                                                                                            },
+                                                                                 "thresholds":  {
+                                                                                                    "rate\u003c0.01":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                                }
+                                                                             },
+                    "http_reqs{api:payment}":  {
+                                                   "type":  "counter",
+                                                   "contains":  "default",
+                                                   "values":  {
+                                                                  "count":  204,
+                                                                  "rate":  1.673379603941825
+                                                              },
+                                                   "thresholds":  {
+                                                                      "count\u003e0":  {
+                                                                                           "ok":  true
+                                                                                       }
+                                                                  }
+                                               },
+                    "http_req_failed{api:payment,phase:phase1}":  {
+                                                                      "type":  "rate",
+                                                                      "contains":  "default",
+                                                                      "values":  {
+                                                                                     "fails":  29,
+                                                                                     "rate":  0,
+                                                                                     "passes":  0
+                                                                                 },
+                                                                      "thresholds":  {
+                                                                                         "rate\u003c0.01":  {
+                                                                                                                "ok":  true
+                                                                                                            }
+                                                                                     }
+                                                                  },
+                    "checks{kind:transaction,api:deposit,phase:phase2}":  {
+                                                                              "type":  "rate",
+                                                                              "contains":  "default",
+                                                                              "values":  {
+                                                                                             "rate":  1,
+                                                                                             "passes":  104,
+                                                                                             "fails":  0
+                                                                                         },
+                                                                              "thresholds":  {
+                                                                                                 "rate\u003e=0.99":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                             }
+                                                                          },
+                    "transaction_failure_rate":  {
+                                                     "thresholds":  {
+                                                                        "rate\u003c0.01":  {
+                                                                                               "ok":  true
+                                                                                           }
+                                                                    },
+                                                     "type":  "rate",
+                                                     "contains":  "default",
+                                                     "values":  {
+                                                                    "rate":  0,
+                                                                    "passes":  0,
+                                                                    "fails":  376
+                                                                }
+                                                 },
+                    "transaction_failure_rate{api:sendmoney,phase:phase1}":  {
+                                                                                 "type":  "rate",
+                                                                                 "contains":  "default",
+                                                                                 "values":  {
+                                                                                                "rate":  0,
+                                                                                                "passes":  0,
+                                                                                                "fails":  29
+                                                                                            },
+                                                                                 "thresholds":  {
+                                                                                                    "rate\u003c0.01":  {
+                                                                                                                           "ok":  true
+                                                                                                                       }
+                                                                                                }
+                                                                             },
+                    "checks{kind:transaction,api:payment,phase:phase4}":  {
+                                                                              "thresholds":  {
+                                                                                                 "rate\u003e=0.99":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                             },
+                                                                              "type":  "rate",
+                                                                              "contains":  "default",
+                                                                              "values":  {
+                                                                                             "rate":  1,
+                                                                                             "passes":  472,
+                                                                                             "fails":  0
+                                                                                         }
+                                                                          },
+                    "transaction_failure_rate{api:deposit}":  {
+                                                                  "contains":  "default",
+                                                                  "values":  {
+                                                                                 "rate":  0,
+                                                                                 "passes":  0,
+                                                                                 "fails":  86
+                                                                             },
+                                                                  "thresholds":  {
+                                                                                     "rate\u003c0.01":  {
+                                                                                                            "ok":  true
+                                                                                                        }
+                                                                                 },
+                                                                  "type":  "rate"
+                                                              },
+                    "http_req_failed{api:payment,phase:phase2}":  {
+                                                                      "type":  "rate",
+                                                                      "contains":  "default",
+                                                                      "values":  {
+                                                                                     "rate":  0,
+                                                                                     "passes":  0,
+                                                                                     "fails":  27
+                                                                                 },
+                                                                      "thresholds":  {
+                                                                                         "rate\u003c0.01":  {
+                                                                                                                "ok":  true
+                                                                                                            }
+                                                                                     }
+                                                                  },
+                    "checks":  {
+                                   "type":  "rate",
+                                   "contains":  "default",
+                                   "values":  {
+                                                  "rate":  1,
+                                                  "passes":  1504,
+                                                  "fails":  0
+                                              }
+                               },
+                    "http_reqs{api:deposit}":  {
+                                                   "type":  "counter",
+                                                   "contains":  "default",
+                                                   "values":  {
+                                                                  "count":  86,
+                                                                  "rate":  0.7054443428382203
+                                                              },
+                                                   "thresholds":  {
+                                                                      "count\u003e0":  {
+                                                                                           "ok":  true
+                                                                                       }
+                                                                  }
+                                               },
+                    "http_reqs{api:sendmoney,phase:phase3}":  {
+                                                                  "type":  "counter",
+                                                                  "contains":  "default",
+                                                                  "values":  {
+                                                                                 "count":  30,
+                                                                                 "rate":  0.24608523587379777
+                                                                             },
+                                                                  "thresholds":  {
+                                                                                     "count\u003e0":  {
+                                                                                                          "ok":  true
+                                                                                                      }
+                                                                                 }
+                                                              },
+                    "http_req_failed":  {
+                                            "values":  {
+                                                           "rate":  0,
+                                                           "passes":  0,
+                                                           "fails":  388
+                                                       },
+                                            "thresholds":  {
+                                                               "rate\u003c0.01":  {
+                                                                                      "ok":  true
+                                                                                  }
+                                                           },
+                                            "type":  "rate",
+                                            "contains":  "default"
+                                        },
+                    "http_reqs{api:sendmoney}":  {
+                                                     "type":  "counter",
+                                                     "contains":  "default",
+                                                     "values":  {
+                                                                    "count":  86,
+                                                                    "rate":  0.7054443428382203
+                                                                },
+                                                     "thresholds":  {
+                                                                        "count\u003e0":  {
+                                                                                             "ok":  true
+                                                                                         }
+                                                                    }
+                                                 },
+                    "http_req_failed{api:payment,phase:phase3}":  {
+                                                                      "type":  "rate",
+                                                                      "contains":  "default",
+                                                                      "values":  {
+                                                                                     "rate":  0,
+                                                                                     "passes":  0,
+                                                                                     "fails":  30
+                                                                                 },
+                                                                      "thresholds":  {
+                                                                                         "rate\u003c0.01":  {
+                                                                                                                "ok":  true
+                                                                                                            }
+                                                                                     }
+                                                                  },
+                    "checks{kind:transaction,api:payment,phase:phase3}":  {
+                                                                              "type":  "rate",
+                                                                              "contains":  "default",
+                                                                              "values":  {
+                                                                                             "fails":  0,
+                                                                                             "rate":  1,
+                                                                                             "passes":  120
+                                                                                         },
+                                                                              "thresholds":  {
+                                                                                                 "rate\u003e=0.99":  {
+                                                                                                                         "ok":  true
+                                                                                                                     }
+                                                                                             }
+                                                                          }
+                }
+}

@@ -1,0 +1,11 @@
+{
+  "runId": "own-k6-2026-10-14T14-31-53-951Z",
+  "script": "performance-test.js",
+  "exitCode": 0,
+  "interrupted": false,
+  "temporaryLimitsRequested": true,
+  "limitSettingsRestored": true,
+  "backupPath": "config\\limits-backup.local.json",
+  "reportsDirectory": "reports\\own-k6-2026-10-14T14-31-53-951Z",
+  "note": "Balances and transaction history are not reset."
+}
